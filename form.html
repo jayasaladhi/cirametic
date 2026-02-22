@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./response.html" method="get" autocomplete="off">
+    <label for="name">Firstname:</label>
+    <input type="text" name="uname" required  placeholder="enter your name" valu="jaya" readonly id="name"><br>
+    <label>Email</label>
+    <input type="email" name="email" pattern="[a-z]+[0-9]+@gmail.com" title="example:abc123@gmail.com"><br>
+    <label>age:</label>
+    <input type="date"><br>
+    <label> gender:</label>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female<br>
+    <label>password:</label>
+    <input type="password" minlength="4" maxlength="10" pattern="[A-
+    Z][a-z]+[0-9]+[!@#$%^]" title=""><br>
+    <label>Mobile Number</label>
+    <input type="mobile number" pattern="[6789][0-9]+" minlength="10" maxlength="10" title="mobile number start with either 6 or 7 or 8 or 9">
+    <input type="file">
+    <select>
+        <option value="1">1</option>
+        <option value="2" disabled>2</option>
+        <option value="3" selected>3</option>
+        <option value="4" selected hidden>4</option>
+    </select><br>
+    <input type="checkbox">Telugu
+    <input type="checkbox">English
+    <input type="checkbox">Hindi <br>
+    <input type="reset">
+    <input type="submit">
+</form>
+</body>
+</html>
